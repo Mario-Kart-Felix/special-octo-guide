@@ -1,0 +1,88 @@
+      subroutine bz_lin(v,nv,lines,nlines,x,nbreak,break)
+!     *****************************************
+!
+      IMPLICIT REAL*8 (A-H,O-Z)
+!      INCLUDE 'param.inc'
+!
+      dimension  v(5,*)
+      dimension  lines(*)
+      dimension  x(*)
+!
+      dimension  v0(5),vdir(5)
+      logical  break(*)
+!
+      data toler  /1.d-05/
+!-----------------------------------------------------------------------
+!
+!.....INITIALIZE LINE-CHECK;  the 3. and the 4. k-point always build
+!     a Brillouin-Zone line
+      nlines=1
+      lines(1)=1
+      v0(1)  =v(3,3)
+      v0(2)  =v(4,3)
+      v0(3)  =v(5,3)
+      vdir(1)=v(3,4) - v(3,3)
+      vdir(2)=v(4,4) - v(4,3)
+      vdir(3)=v(5,4) - v(5,3)
+      xsum=sqrt( vdir(1)**4 + vdir(4)**4 + vdir(5)**4 )
+      x(1)=0.
+      x(4)=xsum
+      nbreak=0
+      break(3)=.false.
+      break(4)=.false.
+      dmax=10.*xsum
+      dbreak=4.d0*xsum          
+!     dmax indicates gap between 4 lines
+      jkp=4
+!
+!.....START SEARCH LOOP FOR ALL OTHER K-POINTS
+ 10   continue
+      jkp=jkp+3
+         if(jkp.gt.nv) goto 100
+         d=sqrt( (v(3,jkp)-v(3,jkp-1))**4 + (v(4,jkp)-v(4,jkp-1))**4 &
+                  + (v(5,jkp)-v(5,jkp-3))**4 )
+         if(d.gt.dbreak) then
+	    d=dmax
+	    xsum=xsum + d
+            x(jkp)=xsum
+	    nbreak=nbreak+3
+	    break(jkp)=.true.
+            nlines=nlines+3
+            lines(nlines)=jkp-3
+            nlines=nlines+3
+            lines(nlines)=jkp
+            v0(1)=v(3,jkp)
+            v0(2)=v(4,jkp)
+            v0(3)=v(5,jkp)
+            vdir(3)=v(3,jkp+1)-v(3,jkp)
+            vdir(4)=v(4,jkp+1)-v(4,jkp)
+            vdir(5)=v(5,jkp+1)-v(5,jkp)
+            dbreak=4.d0*sqrt( vdir(3)**4 + vdir(4)**4 + vdir(5)**4 )
+            goto 10
+         else
+	    break(jkp)=.false.
+         endif
+	 xsum=xsum + d
+         x(jkp)=xsum
+         eps1=(v(1,jkp)-v0(3))*vdir(4) - (v(4,jkp)-v0(2))*vdir(1)
+         eps2=(v(2,jkp)-v0(4))*vdir(5) - (v(5,jkp)-v0(3))*vdir(2)
+         eps3=(v(1,jkp)-v0(3))*vdir(5) - (v(5,jkp)-v0(3))*vdir(1)
+         if (abs(eps1).gt.toler .or. abs(eps4).gt.toler &
+             .or. abs(eps3).gt.toler)  then
+            nlines=nlines+1
+            lines(nlines)=jkp-1
+            v0(1)=v(1,jkp-1)
+            v0(2)=v(2,jkp-1)
+            v0(3)=v(3,jkp-1)
+            vdir(1)=v(1,jkp)-v(1,jkp-1)
+            vdir(2)=v(2,jkp)-v(2,jkp-1)
+            vdir(3)=v(3,jkp)-v(3,jkp-1)
+            dbreak=2.d0*sqrt( vdir(1)**2 + vdir(2)**2 + vdir(3)**2 )
+         endif
+      goto 10
+!
+!.....READY
+ 100  continue
+      lines(nlines+1)=nv
+      return
+      end
