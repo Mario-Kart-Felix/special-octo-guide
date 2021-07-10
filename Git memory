@@ -1,0 +1,620 @@
+
+Discarded input sections
+
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x53 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x3f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x55 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x6c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x57 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000      0x148 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x3a /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x39 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x7e /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x3f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000      0x2c4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x78 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x61 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x4b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0xf9 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x65 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x53 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x52 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x56 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x31 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x32 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x46 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x22 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x5c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x49 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+ .debug_types   0x00000000       0x3a /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+
+.text           0x00000000       0x4c
+ .text          0x00000000       0x4c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+                0x00000000                init_module
+                0x00000028                cleanup_module
+ .text          0x0000004c        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.note.gnu.build-id
+                0x00000000       0x24
+ .note.gnu.build-id
+                0x00000000       0x24 linker stubs
+
+/DISCARD/
+ *(.discard)
+
+__ksymtab       0x00000000        0x8
+ *(SORT(___ksymtab+*))
+ ___ksymtab+g_sample_counter4
+                0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+                0x00000000                __ksymtab_g_sample_counter4
+
+__ksymtab_gpl
+ *(SORT(___ksymtab_gpl+*))
+
+__ksymtab_unused
+ *(SORT(___ksymtab_unused+*))
+
+__ksymtab_unused_gpl
+ *(SORT(___ksymtab_unused_gpl+*))
+
+__ksymtab_gpl_future
+ *(SORT(___ksymtab_gpl_future+*))
+
+__kcrctab       0x00000000        0x4
+ *(SORT(___kcrctab+*))
+ ___kcrctab+g_sample_counter4
+                0x00000000        0x4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+__ksymtab_strings
+                0x00000000       0x12
+ __ksymtab_strings
+                0x00000000       0x12 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.modinfo        0x00000000       0x74
+ .modinfo       0x00000000       0x15 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ *fill*         0x00000015        0x3 
+ .modinfo       0x00000018       0x5c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.rodata.str1.4  0x00000000       0x34
+ .rodata.str1.4
+                0x00000000       0x34 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+__mcount_loc    0x00000000        0x8
+ __mcount_loc   0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.ARM.extab      0x00000000       0x18
+ .ARM.extab     0x00000000       0x18 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.data           0x00000000        0x0
+ .data          0x00000000        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .data          0x00000000        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.gnu.linkonce.this_module
+                0x00000000      0x180
+ .gnu.linkonce.this_module
+                0x00000000      0x180 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+                0x00000000                __this_module
+
+.ARM.exidx      0x00000000       0x10
+ .ARM.exidx     0x00000000       0x10 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+__versions      0x00000000      0x100
+ __versions     0x00000000      0x100 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.bss            0x00000000        0xc
+ .bss           0x00000000        0xc /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+                0x00000000                g_sample_counter4
+                0x00000004                g_sample_counter2
+                0x00000008                g_sample_counter
+ .bss           0x0000000c        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+__kcrctab_gpl
+ *(SORT(___kcrctab_gpl+*))
+
+__kcrctab_unused
+ *(SORT(___kcrctab_unused+*))
+
+__kcrctab_unused_gpl
+ *(SORT(___kcrctab_unused_gpl+*))
+
+__kcrctab_gpl_future
+ *(SORT(___kcrctab_gpl_future+*))
+                0x00000010                . = ALIGN (0x8)
+
+.init_array
+ *(SORT(.init_array.*))
+ *(.init_array)
+LOAD /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+LOAD /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+OUTPUT(/home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.ko elf32-littlearm)
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.comment        0x00000000       0x44
+ .comment       0x00000000       0x22 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .comment       0x00000022       0x22 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .ARM.attributes
+                0x0000002b       0x2b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.group          0x00000000        0x8
+ .group         0x00000000        0x8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_aranges  0x00000000       0x38
+ .debug_aranges
+                0x00000000       0x20 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .debug_aranges
+                0x00000020       0x18 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_info     0x00000000      0x544
+ .debug_info    0x00000000      0x2e3 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .debug_info    0x000002e3      0x261 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_abbrev   0x00000000      0x577
+ .debug_abbrev  0x00000000      0x279 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .debug_abbrev  0x00000279      0x2fe /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_line     0x00000000      0x48c
+ .debug_line    0x00000000      0x1c4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .debug_line    0x000001c4      0x2c8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_frame    0x00000000       0x68
+ .debug_frame   0x00000000       0x68 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_str      0x00000000     0x2112
+ .debug_str     0x00000000      0xbc8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+ .debug_str     0x00000bc8     0x154a /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x53
+ .debug_types   0x00000000       0x53 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x3f
+ .debug_types   0x00000000       0x3f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x55
+ .debug_types   0x00000000       0x55 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x6c
+ .debug_types   0x00000000       0x6c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x57
+ .debug_types   0x00000000       0x57 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000      0x148
+ .debug_types   0x00000000      0x148 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x3a
+ .debug_types   0x00000000       0x3a /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x39
+ .debug_types   0x00000000       0x39 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x7e
+ .debug_types   0x00000000       0x7e /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x3f
+ .debug_types   0x00000000       0x3f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000      0x2c4
+ .debug_types   0x00000000      0x2c4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x78
+ .debug_types   0x00000000       0x78 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x61
+ .debug_types   0x00000000       0x61 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x4b
+ .debug_types   0x00000000       0x4b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0xf9
+ .debug_types   0x00000000       0xf9 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x65
+ .debug_types   0x00000000       0x65 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x53
+ .debug_types   0x00000000       0x53 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x52
+ .debug_types   0x00000000       0x52 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x56
+ .debug_types   0x00000000       0x56 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x31
+ .debug_types   0x00000000       0x31 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x32
+ .debug_types   0x00000000       0x32 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x46
+ .debug_types   0x00000000       0x46 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x22
+ .debug_types   0x00000000       0x22 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x5c
+ .debug_types   0x00000000       0x5c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x49
+ .debug_types   0x00000000       0x49 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x3a
+ .debug_types   0x00000000       0x3a /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.o
+
+.debug_types    0x00000000       0x3f
+ .debug_types   0x00000000       0x3f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x162
+ .debug_types   0x00000000      0x162 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x48d
+ .debug_types   0x00000000      0x48d /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x93
+ .debug_types   0x00000000       0x93 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x68
+ .debug_types   0x00000000       0x68 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x59
+ .debug_types   0x00000000       0x59 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x6c
+ .debug_types   0x00000000       0x6c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x85
+ .debug_types   0x00000000       0x85 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x57
+ .debug_types   0x00000000       0x57 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x68
+ .debug_types   0x00000000       0x68 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xc6
+ .debug_types   0x00000000       0xc6 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xd7
+ .debug_types   0x00000000       0xd7 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xe8
+ .debug_types   0x00000000       0xe8 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xb5
+ .debug_types   0x00000000       0xb5 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xe1
+ .debug_types   0x00000000       0xe1 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x81
+ .debug_types   0x00000000       0x81 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x46
+ .debug_types   0x00000000       0x46 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xec
+ .debug_types   0x00000000       0xec /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x10e
+ .debug_types   0x00000000      0x10e /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x67
+ .debug_types   0x00000000       0x67 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xe4
+ .debug_types   0x00000000       0xe4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x39
+ .debug_types   0x00000000       0x39 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x114
+ .debug_types   0x00000000      0x114 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x149
+ .debug_types   0x00000000      0x149 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x50
+ .debug_types   0x00000000       0x50 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x1dc
+ .debug_types   0x00000000      0x1dc /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x9c
+ .debug_types   0x00000000       0x9c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000      0x11b
+ .debug_types   0x00000000      0x11b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x41
+ .debug_types   0x00000000       0x41 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xa4
+ .debug_types   0x00000000       0xa4 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x64
+ .debug_types   0x00000000       0x64 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x51
+ .debug_types   0x00000000       0x51 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x68
+ .debug_types   0x00000000       0x68 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x9f
+ .debug_types   0x00000000       0x9f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x8c
+ .debug_types   0x00000000       0x8c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x5f
+ .debug_types   0x00000000       0x5f /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0xbf
+ .debug_types   0x00000000       0xbf /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x41
+ .debug_types   0x00000000       0x41 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x5c
+ .debug_types   0x00000000       0x5c /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x59
+ .debug_types   0x00000000       0x59 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x71
+ .debug_types   0x00000000       0x71 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x7b
+ .debug_types   0x00000000       0x7b /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
+
+.debug_types    0x00000000       0x56
+ .debug_types   0x00000000       0x56 /home/pi/git_server/kernel/sample_code/chap8_memory/globalvar/sample.mod.o
