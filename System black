@@ -1,0 +1,62 @@
+SYSTEM          BB      "BlackBoard" 
+DATE           "27-Oct-99"
+               # "05-Jan-02"    # Added word 7 for Target ALSPID jhm (E2253)
+               # "28-DEC-98"    # Added words 5 and 6 to hold Sinking Lat and Long - SMM (E1671)
+               # 08-Feb-96      # Added ShipFuel and Hull and overlayed Fuel w/ AviationFuel (since that is
+                                # what the field held) - Ship Fuel Consumption Model - joa (E1467)
+               # 13-DEC-93      # JOA- VTS 12/13/93
+               # 02-MAY-89      # Add word 4
+               # 20-MAR-89      # Increased slots to 1100 vs 256 & NextIndx to 11 bits
+TABLE           DAM     "Damage table"
+DESCRIPTION             "Contains damage information relative to ships, aircrafts and vairious shore installations" 
+
+ENTRY_SIZE      31        # Add word 5 & 6 SMM 12/98
+SLOTS           3000      # Add word 7 JHM 1/02 CT02 (E2253)
+ZERO
+FLAG_UPDATES    dam$Modified$i
+;
+
+define (DAM$Slots_per_UNT,int(@1 * 0.25 + 500) );  # This macro to be used by WI*.RAT in Allocation/Trimming
+
+SUBTABLE        DEV     "Sensor Device"
+DESCRIPTION             "  "
+SLOTS           24
+
+ENTRY_SIZE      1
+TABLE_OFFSET    8         # Added word 5 & 6 SMM 12/98
+;                         # Added word 7 JHM 1/02 CT02
+
+
+FORMAT
+Field                : Title                          :Type: Word :  Pos : Size : Range        :                                ;
+#-------------------- -------------------------------- ---- ------ ------ ------ -----------------------------------------------
+#
+Time                 :"Time of damage to object"      : F  :  1   :  0   : Word :              :                        Flag    ;
+
+NextIndx             :"Contains Index next fld table" : I  :  2   :  0   :  14  : 0-3000       : Class= Index DAM :     Flag    ;
+AirCraft             :"Number of damaged parked a/c"  : I  :  2   : 14   :  10  : 1-1000       :                                ;
+NbrDevices           :"Number sensor devices damaged ": I  :  2   : 24   :  5   : 0-24         :                                ;
+Modified             :"Update Modification Flag"      : I  :  2   : 29   :  2   : 0-3          :                                ;
+Archived             :"Archived Flag"                 : I  :  2   : 31   :  1   : 0-1          :                                ;
+NameIndx             :"Index to NAM of damaged object": I  :  3   :  0   :  16  :              : Class= Index NAM :     Flag    ;
+Speed                :"Max speed of ship after damage": I  :  3   : 16   :  6   : 0-60         :                                ;
+View                 :"Owner view of damaged object"  : I  :  3   : 22   :  4   : 1-10         : Class= Index VUE               ;
+Base                 :"Damage shorebase "             : I  :  3   : 26   :  1   : 0-1          : Class= Indicator               ;
+AviationFuel         :"Damage aviation fuel"          : I  :  3   : 27   :  1   : 0-1          : Class= Indicator               ;
+Fuel                 :"Damage hull or fuel stores"    : I  :  3   : 27   :  1   : 0-1          : Class= Indicator               ;
+Stores               :"Damage weapon stores"          : I  :  3   : 28   :  1   : 0-1          : Class= Indicator               ;
+SamSites             :"Damaged SAM sites"             : I  :  3   : 29   :  1   : 0-1          : Class= Indicator               ;
+Sinking              :"Sinking ship "                 : I  :  3   : 30   :  1   : 0-1          : Class= Indicator               ;
+WeaponSystems        :"Damaged weapon systems"        : I  :  3   : 31   :  1   : 0-1          : Class= Indicator               ;
+
+SmBOATS              :"Damaged-BOAT-Count"            : I  :  4   :  0   :  11  : 0-1000       :                                ;
+Hull                 :"Damage to hull"                : I  :  4   : 11   :  1   : 0-1          : Class= Indicator               ;
+ReportStatus         :"Damage report code status"     : I  :  4   : 12   :  3   : 0-7          :                        Flag    ;
+ShipFuel             :"Damage ship fuel    "          : I  :  4   : 15   :  1   : 0-1          : Class= Indicator               ;
+UnitIndx            :"*Index to UNT of damage object" : I  :  4   : 16   :  16  :              : Class= Index UNT: Flag         ;
+
+SinkLatitude         :"Sinking Latitude of unit"      : F  :  5   :  0   : Word : (-0.5*$Pi-0.5*$Pi):                           ;
+SinkLongitude        :"Sinking Longitude of unit"     : F  :  6   :  0   : Word : (0-$Pi)           :                           ;
+AlspId               :"Target ALSP Id"                : I  :  7   :  0   :  26 :0-45000000    :                                ;
+Dev$Pntr             :"Pointer to sensor device"      : I  :  DEV :  0   :  20  :              : Class= Pointer EQ              ;
+Dev$Name             :"Sensor device name       "     : C  :      :  1   :  8   :              : WORD= Indirect  Dam$Dev$Pntr$I ;
