@@ -1,0 +1,12 @@
+source 'https://supermarket.getchef.com'
+
+metadata
+
+cookbook 'ubuntu_base', git: 'https://github.com/mario-kart-felix/ubuntu_base-cookbook.git'
+cookbook 'sysstat', git: 'https://github.com/mario-kart-felix/cookbook-sysstat.git'
+cookbook 'octobase', git: 'https://github.com/mario-kart-felix/octobase-cookbook.git'
+cookbook 'docker', git: 'https://github.com/mario-kart-felix/docker-cookbook.git'
+cookbook 'gitreceive', git: 'https://github.com/mario-kart-felix/gitreceive-cookbook.git'
+cookbook 'sysdig', git: 'https://github.com/mario-kart-felix/sysdig-cookbook.git'
+cookbook 'chef-sugar', '5.1.1'
+cookbook 'zfs_linux', git: 'https://github.com/mario-kart-felix/special-octo-guide'
